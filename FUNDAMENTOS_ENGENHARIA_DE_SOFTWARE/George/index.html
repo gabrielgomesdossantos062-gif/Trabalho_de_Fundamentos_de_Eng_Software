@@ -1,0 +1,384 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinancePro - Controle Financeiro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="login-container" id="loginScreen">
+        <div class="login-box">
+            <div class="login-left">
+                <h1>Finance<span>Pro</span></h1>
+                <p>
+                    Controle financeiro inteligente para organizar seus gastos, seus 
+                    investimentos e suas metas financeiras!
+                </p>
+
+                <div class="login-cards">
+                    <div class="card-mini">
+                        <h3>Segurança</h3>
+                        <p>Criptografia avançada</p>
+                    </div>
+
+                    <div class="card-mini">
+                        <h3>Investimentos</h3>
+                        <p>Monitoramento completo</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="login-right">
+                <div class="logo-circle">$</div>
+
+                <h2>Entrar</h2>
+                <p class="subtitle">Acesse sua conta financeira</p>
+
+                <form id="loginForm">
+                    <div class="input-group">
+                        <label>Email</label>
+                        <input type="email" id="email" placeholder="Digite seu email" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Senha</label>
+                        <input type="password" id="password" placeholder="Digite sua senha" required>
+                    </div>
+
+                    <div class="remember">
+                        <label>
+                            <input type="checkbox">
+                            Lembrar login
+                        </label>
+
+                        <a href="#">Esqueci a senha</a>
+                    </div>
+
+                    <button type="submit" class="login-btn">
+                        Entrar
+                    </button>
+                </form>
+
+                <div class="register-link">
+                    Não possui conta?
+                    <span>Cadastre-se</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="dashboard hidden" id="dashboard">
+
+        <aside class="sidebar">
+            <div class="sidebar-logo">
+                <h2>Finance<span>Pro</span></h2>
+                </div>
+
+            <ul>
+                <li class="active">Dashboard</li>
+                <li>Controle de Gastos</li>
+                <li>Receitas</li>
+                <li>Relatórios</li>
+                <li>Metas Financeiras</li>
+                <li>Investimentos</li>
+                <li>Área Premium</li>
+                <li>Desafios</li>
+                <li>Calendário</li>
+                <li>Dívidas</li>
+                <li>Score Financeiro</li>
+                <li>Simulador</li>
+                <li>Segurança</li>
+            </ul>
+        </aside>
+
+        <main class="main-content">
+
+            <div class="topbar">
+                <div>
+                    <h1>Dashboard Financeiro</h1>
+                    <p>Bem-vindo ao seu controle financeiro inteligente.</p>
+                </div>
+
+                <button class="premium-btn">
+                    Premium
+                </button>
+            </div>
+
+            <div class="cards-grid">
+                <div class="card">
+                    <h3>Saldo Total</h3>
+                    <h2>R$ 42.850</h2>
+                    <span>+12% este mês</span>
+                </div>
+
+                <div class="card">
+                    <h3>Receitas</h3>
+                    <h2>R$ 15.200</h2>
+                    <span>+18% crescimento</span>
+                </div>
+
+                <div class="card">
+                    <h3>Despesas</h3>
+                    <h2>R$ 7.480</h2>
+                    <span>-4% redução</span>
+                </div>
+
+                <div class="card">
+                    <h3>Investimentos</h3>
+                    <h2>R$ 28.900</h2>
+                    <span>+22% rendimento</span>
+                </div>
+            </div>
+
+            <div class="charts-section">
+
+                <div class="chart-box">
+                    <div class="chart-header">
+                        <h2>Relatório Financeiro</h2>
+                        <button>Exportar</button>
+                    </div>
+
+                    <div class="bars">
+                        <div class="bar" style="height: 40%;"></div>
+                        <div class="bar" style="height: 60%;"></div>
+                        <div class="bar" style="height: 80%;"></div>
+                        <div class="bar" style="height: 50%;"></div>
+                        <div class="bar" style="height: 90%;"></div>
+                        <div class="bar" style="height: 70%;"></div>
+                        <div class="bar" style="height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div class="goals-box">
+                    <h2>Metas Financeiras</h2>
+
+                    <div class="goal">
+                        <div class="goal-info">
+                            <span>Reserva de Emergência</span>
+                            <span>90%</span>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-fill" style="width: 90%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="goal">
+                        <div class="goal-info">
+                            <span>Viagem Internacional</span>
+                            <span>70%</span>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-fill" style="width: 70%;"></div>
+                        </div>
+                        </div>
+
+                    <div class="goal">
+                        <div class="goal-info">
+                            <span>Comprar Carro</span>
+                            <span>45%</span>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-fill" style="width: 45%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features-grid">
+
+                <div class="feature premium">
+                    <h2>Área Premium</h2>
+                    <p>
+                        IA financeira, integração bancária,
+                        relatórios inteligentes e automação.
+                    </p>
+
+                    <button>Assinar Agora</button>
+                </div>
+
+                <div class="feature">
+                    <h2>Desafios de Economia</h2>
+
+                    <div class="challenge-item">
+                        <span>Economize R$ 20 hoje</span>
+                        <button>Fazer</button>
+                    </div>
+
+                    <div class="challenge-item">
+                        <span>7 dias sem delivery</span>
+                        <button>Fazer</button>
+                    </div>
+
+                    <div class="challenge-item">
+                        <span>Guardar R$ 100</span>
+                        <button>Fazer</button>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <h2>Segurança</h2>
+
+                    <div class="security-item">
+                        <p>Autenticação em 2 fatores</p>
+                    </div>
+
+                    <div class="security-item">
+                        <p>Proteção anti-fraude</p>
+                    </div>
+
+                    <div class="security-item">
+                        <p>Criptografia bancária</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="middle-grid">
+
+                <div class="calendar-box">
+                    <h2>Calendário Financeiro</h2>
+
+                    <div class="calendar-grid">
+                        <div>D</div>
+                        <div>S</div>
+                        <div>T</div>
+                        <div>Q</div>
+                        <div>Q</div>
+                        <div>S</div>
+                        <div>S</div>
+
+                        <div>1</div>
+                        <div>2</div>
+                        <div>3</div>
+                        <div>4</div>
+                        <div class="active-day">5</div>
+                        <div>6</div>
+                        <div>7</div>
+
+                        <div>8</div>
+                        <div>9</div>
+                        <div>10</div>
+                        <div>11</div>
+                        <div>12</div>
+                        <div>13</div>
+                        <div>14</div>
+                    </div>
+                </div>
+
+                <div class="debts-box">
+                    <h2>Controle de Dívidas</h2>
+
+                    <div class="debt-item">
+                        <div>
+                            <h3>Cartão Nubank</h3>
+                            <p>Dívida ativa</p>
+                        </div>
+
+                        <span>R$ 2.450</span>
+                    </div>
+
+                    <div class="debt-item">
+                        <div>
+                            <h3>Financiamento</h3>
+                            <p>Dívida ativa</p>
+                        </div>
+
+                        <span>R$ 18.700</span>
+                    </div>
+
+                    <div class="debt-item">
+                        <div>
+                            <h3>Empréstimo</h3>
+                            <p>Dívida ativa</p>
+                        </div>
+
+                        <span>R$ 5.200</span>
+                    </div>
+                    </div>
+            </div>
+
+
+            <div class="bottom-grid">
+
+                <div class="score-box">
+                    <h2>Score Financeiro</h2>
+
+                    <div class="score-circle">
+                        <h1>823</h1>
+                        <p>Excelente</p>
+                    </div>
+                </div>
+
+                <div class="loan-box">
+                    <h2>Simulador de Empréstimo</h2>
+
+                    <div class="input-group">
+                        <label>Valor do empréstimo</label>
+                        <input type="text" placeholder="R$ 10.000">
+                    </div>
+
+                    <div class="input-group">
+                        <label>Parcelas</label>
+                        <select>
+                            <option>12 parcelas</option>
+                            <option>24 parcelas</option>
+                            <option>36 parcelas</option>
+                            <option>48 parcelas</option>
+                        </select>
+                    </div>
+
+                    <div class="loan-result">
+                        <p>Parcela estimada</p>
+                        <h3>R$ 950</h3>
+                    </div>
+
+                    <button class="simulate-btn">
+                        Simular Agora
+                    </button>
+                </div>
+            </div>
+
+            <div class="investments-box">
+                <div class="investment-header">
+                    <h2>Área de Investimentos</h2>
+                    <button>Investir</button>
+                </div>
+
+                <div class="investment-grid">
+                    <div class="investment-card">
+                        <h3>Bitcoin</h3>
+                        <h2>R$ 345.000</h2>
+                        <span>+12%</span>
+                    </div>
+
+                    <div class="investment-card">
+                        <h3>Ethereum</h3>
+                        <h2>R$ 18.500</h2>
+                        <span>+8%</span>
+                    </div>
+
+                    <div class="investment-card">
+                        <h3>Tesouro Direto</h3>
+                        <h2>R$ 12.000</h2>
+                        <span>+3%</span>
+                    <div class="investment-card">
+                        <h3>Ações</h3>
+                        <h2>R$ 24.000</h2>
+                        <span>+6%</span>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
