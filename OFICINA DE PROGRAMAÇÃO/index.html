@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhe o Número</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🎯 Adivinhe o Número</h1>
+
+    <p>Estou pensando em um número entre 1 á 100</p>
+
+    <input type="number" id="número" placeholder="Digite seu número">
+
+    <button onclick="verificarPalpite()">
+        Verificar
+    </button>
+
+    <button onclick="reiniciarJogo()">
+        Novo Jogo
+    </button>
+
+    <div id="mensagem"></div>
+
+    <div id="tentativas">
+        Tentativas: 0
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
