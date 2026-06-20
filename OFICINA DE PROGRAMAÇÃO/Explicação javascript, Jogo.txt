@@ -1,0 +1,35 @@
+Explicação do JavaScript: Jogo de adivinhação que número estou pensando.
+
+*let numeroSecreto = gerarNumero( );*: Cria a variável que guarda o número secreto gerado aleatoriamente.
+
+*let tentativas = 0;*: Automaticamente armazena a quantidade de tentativas do jogador.
+
+*Função gerarNumero( )*: Vai gerar e retornar qualquer número aleatório que esteja entre 1 e 100.
+
+*Função verificarPalpite( )*
+- obtém o número digitado pela pessoa.
+- v⁠erifica se o valor informado é válido.
+- ⁠incrementa o contador de tentativas.
+- ⁠atualiza a quantidade de tentativas na tela.
+- ⁠compara o palpite com o número secreto.
+- ⁠exibe uma mensagem informando se o jogador acertou, se o número secreto é maior ou menor.
+- ⁠altera a cor da mensagem de acordo com o resultado.
+- ⁠limpa o campo de entrada e posiciona o cursor nele novamente.
+
+*Função reiniciarJogo( )*
+- gera um novo número secreto.
+- ⁠zera o contador de tentativas.
+- ⁠limpa as mensagens exibidas.
+- ⁠atualiza o contador na tela.
+- ⁠limpa o campo de entrada.
+
+*conceitos que foi utilizado*
+- as variáveis  let e const: armazena os dados.
+- ⁠funções: agrupam instruções específicas.
+- ⁠condicionais: if, else if, else,  tomam decisões de acordo com as condições.
+- ⁠operadores lógicos: !, | |,  ajudam nas validações.
+- ⁠dom (getElementById): permite acessar e modificar elementos da página.
+- ⁠Math.random( ) e o Math.floor( ): geram números aleatórios.
+- ⁠(innerHTML): altera o conteúdo dos elementos HTML.
+- ⁠(style.color): modificou a cor dos textos.
+- ⁠focus( ): posicionou um cursor em um campo de entrada.
